@@ -459,7 +459,10 @@
 		},
 		"ext.pageforms.wikieditor": {
 			"scripts": "libs/PF_wikieditor.js",
-			"styles": "skins/PF_wikieditor.css"
+			"styles": "skins/PF_wikieditor.css",
+			"dependencies": [
+				"ext.wikiEditor"
+			]
 		},
 		"ext.pageforms": {
 			"scripts": [
